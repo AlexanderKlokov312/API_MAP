@@ -1,4 +1,4 @@
-# первое изменение
+# второе изменение
 import sys
 
 from PyQt5 import uic
@@ -14,7 +14,8 @@ class MainWindow(QMainWindow):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        uic.loadUi('ui_classwork.ui', self)
+        uic.loadUi('ui_class_work.ui', self)
+
 
         self.map_zoom = 5
         self.map_ll = [37.977751, 55.757718]
